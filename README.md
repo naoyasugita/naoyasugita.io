@@ -1,0 +1,2 @@
+# naoyasugita.io
+my page
