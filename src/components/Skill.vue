@@ -18,7 +18,6 @@
             <img src="../../static/skill/html5.svg" width="48">
             <img src="../../static/skill/css3.svg" width="48">
             <img src="../../static/skill/javascript.svg" width="48">
-            <img src="../../static/skill/vue-dot-js.svg" width="48">
             <img src="../../static/skill/php.svg" width="48">
             <img src="../../static/skill/mysql.svg" width="48">
           <h2>advanced</h2>
@@ -32,6 +31,7 @@
           <img src="../../static/skill/laravel.svg" width="48">
           <h2>intermediate</h2>
           <img src="../../static/skill/flask.svg" width="48">
+          <img src="../../static/skill/vue-dot-js.svg" width="48">
           <h2>advanced</h2>
           -
       </div>
