@@ -1,8 +1,7 @@
 <template>
   <div>
     <main-header/>
-    <img src="../../static/top_img.jpg">
-    <sns/>
+    <img src="../../static/top.png">
   </div>
 </template>
 
@@ -12,8 +11,7 @@ import Sns from './Sns'
 export default {
   name: 'Top',
   components: {
-    MainHeader,
-    Sns
+    MainHeader
   },
   data () {
     return {
@@ -27,6 +25,6 @@ h1, h2 {
   font-weight: normal;
 }
 img {
-	width: 100vw;
+  width: 100vw;
 }
 </style>

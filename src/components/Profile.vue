@@ -20,15 +20,18 @@
         </div>
       </div>
     </div>
+		<sns/>
   </div>
 </template>
 
 <script>
 import MainHeader from './MainHeader'
+import Sns from './Sns'
 export default {
   name: 'Profile',
   components: {
-    MainHeader
+    MainHeader,
+		Sns
   },
   data () {
     return {
@@ -49,8 +52,8 @@ export default {
           value:
           {
             'H.S.':'West of Miyazaki',
-            Univ:'Sojo University',
-            Job:'Engineer',
+            'Univ.':'Sojo University',
+            'Co.':'aratana inc.',
           },
         },
         {
@@ -91,5 +94,7 @@ th,td {
 .interset p{
   margin-top: 0px;
   margin-bottom: 0px;
+}
+.footer{
 }
 </style>

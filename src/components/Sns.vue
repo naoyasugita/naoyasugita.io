@@ -1,5 +1,5 @@
 <template>
-  <div class="svg">
+  <div class="footer">
     <a href="https://github.com/naoyasugita"><img src="../../static/github.svg" width="48"></a>
     <a href="https://facebook.com/suginao.miyazaki"><img src="../../static/facebook.svg" width="48"></a>
     <a href="https://twitter.com/suginao17"><img src="../../static/twitter.svg" width="48"></a>
@@ -22,7 +22,5 @@ export default {
 <style scoped>
 img {
 	padding:10px
-}
-svg {
 }
 </style>
