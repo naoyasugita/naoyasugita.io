@@ -1,27 +1,28 @@
 <template>
   <div>
-    <main-header/>
-    <img src="../../static/top.png">
+    <main-header />
+    <img src="../../static/top.png" />
   </div>
 </template>
 
 <script>
-import MainHeader from './MainHeader'
-import Sns from './Sns'
+import MainHeader from "./MainHeader";
+import Sns from "./Sns";
 export default {
-  name: 'Top',
+  name: "Top",
   components: {
     MainHeader
   },
-  data () {
+  data() {
     return {
-      name:'Top',
-    }
-  },
-}
+      name: "Top"
+    };
+  }
+};
 </script>
 <style scoped>
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 img {

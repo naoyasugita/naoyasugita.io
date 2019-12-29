@@ -1,10 +1,8 @@
 <template>
   <div>
     <ul>
-      <li v-for="(tab, index) in tabs" :key=index>
-         <router-link v-bind:to=tab.path>
-            {{ tab.title }}
-         </router-link>
+      <li v-for="(tab, index) in tabs" :key="index">
+        <router-link v-bind:to="tab.path">{{ tab.title }}</router-link>
       </li>
     </ul>
   </div>
@@ -12,24 +10,24 @@
 
 <script>
 export default {
-  name: 'MainHeader',
-  data () {
+  name: "MainHeader",
+  data() {
     return {
       tabs: [
-        { title: 'TOP', path: '/' },
-        { title: 'PROFILE', path: '/profile' },
-        { title: 'SKILL', path: '/Skill' },
+        { title: "TOP", path: "/" },
+        { title: "PROFILE", path: "/profile" },
+        { title: "SKILL", path: "/Skill" }
       ]
-    }
+    };
   }
-}
+};
 </script>
 
 <style scoped>
 ul {
   margin: auto;
   width: 480px;
-  display:flex;
+  display: flex;
   justify-content: center;
   padding: 10px;
   list-style: none;
@@ -38,8 +36,8 @@ ul {
 li {
   width: 120px;
   height: 50px;
-  margin-left:20px;
-  margin-right:20px;
+  margin-left: 20px;
+  margin-right: 20px;
   position: relative;
 }
 
@@ -55,7 +53,7 @@ a {
   height: 100%;
   text-decoration: none;
   line-height: 50px;
-  font-size:30px;
-  color:black;
+  font-size: 30px;
+  color: black;
 }
 </style>
